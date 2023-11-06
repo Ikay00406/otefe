@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="overflow-hidden">
+    <div class="w-[80%] mx-auto flex">
+      <div class="w-[50%] h-[100vh] flex items-center">
+        <div class="w-full">
+          <h1 class="my-5 text-[25px] font-semibold">Create User</h1>
+          <form>
+            <div class="mb-6">
+              <label
+                for="email"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="text"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter Name"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="password"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Phone</label
+              >
+              <input
+                placeholder="Enter Phone"
+                type="phone"
+                id="phone"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="password"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Email</label
+              >
+              <input
+                placeholder="Enter Email"
+                type="email"
+                id="email"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Create Now
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="w-[50%] border-l-gray-100 border-2 mx-5 h-[100vh]">
+        <h1 class="text-center font-semibold text-[25px] my-3">
+          List of Users
+        </h1>
+        <div class="h-[85%] overflow-y-auto">
+          <div class="w-[90%] mx-auto shadow-lg my-[2rem]">
+            <div class="flex">
+              <div class="w-[30%]">
+                <img src="profile-pic.png" alt="" class="w-[10rem]" />
+              </div>
+              <div class="text-[20px] font-semibold w-[70%] ml-[10px]">
+                <ul>
+                  <li>Name:</li>
+                  <li>Phone:</li>
+                  <li>Email:</li>
+                </ul>
+                <button
+                  type="button"
+                  class="py-1 px-4 text-white bg-[red] text-sm rounded font-semibold float-right relative right-3"
+                >
+                  Remove
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[90%] mx-auto shadow-lg my-[2rem]">
+            <div class="flex">
+              <div class="w-[30%]">
+                <img src="images/Profile-pic.jpg" alt="" class="w-[10rem]" />
+              </div>
+              
+            </div>
+          </div>
+          <div class="w-[90%] mx-auto shadow-lg my-[2rem]">
+            <div class="flex">
+              <div class="w-[30%]">
+                <img src="profile-pic.png" alt="" class="w-[10rem]" />
+              </div>
+              
+            </div>
+          </div>
+          <div class="w-[90%] mx-auto shadow-lg my-[2rem]">
+            <div class="flex">
+              <div class="w-[30%]">
+                <img src="profile-pic.png" alt="" class="w-[10rem]" />
+              </div>
+ 
+            </div>
+          </div>
+          <div class="w-[90%] mx-auto shadow-lg my-[2rem]">
+            <div class="flex">
+              <div class="w-[30%]">
+                <img src="profile-pic.png" alt="" class="w-[10rem]" />
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>
